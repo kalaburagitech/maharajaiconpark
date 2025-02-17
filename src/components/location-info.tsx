@@ -1,4 +1,4 @@
-"use client"; // ✅ Required for client-side animations
+"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -39,9 +39,9 @@ export default function LocationInfo() {
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Devanahalli, situated in the northern part of Bengaluru, is
               evolving into a satellite town and a growing real estate hub. The
-              micro market's advantageous location and proximity to Nandi Hills
-              along the commerce route that connects Karnataka with the northern
-              region have aided the region's development.
+              micro market&apos;s advantageous location and proximity to Nandi
+              Hills along the commerce route that connects Karnataka with the
+              northern region have aided the region&apos;s development.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Following the establishment of Kempegowda International Airport,

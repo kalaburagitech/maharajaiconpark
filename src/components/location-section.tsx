@@ -8,9 +8,14 @@ export default function LocationSection() {
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"
+        >
           Prime Location
-        </h2>
+        </motion.h2>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -37,12 +42,12 @@ export default function LocationSection() {
             className="w-full md:w-1/2"
           >
             <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">
-              Devanahalli – Bengaluru's fast-growing hub of connectivity and
-              luxury living
+              Devanahalli – Bengaluru&apos;s fast-growing hub of connectivity
+              and luxury living
             </h3>
             <p className="mb-6 text-gray-700 dark:text-gray-300">
               Located in the heart of Devanahalli, Maharaja Ikon Park offers
-              unparalleled connectivity and access to Bengaluru's most
+              unparalleled connectivity and access to Bengaluru&apos;s most
               sought-after destinations.
             </p>
             <Button className="bg-blue-600 hover:bg-blue-700 text-white">

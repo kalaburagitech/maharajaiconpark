@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
@@ -42,14 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-        >
-          {/* <Button
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 text-white border-2 border-transparent hover:border-blue-400 transition-all duration-300"
-          >
-            Explore Luxury Living
-          </Button> */}
-        </motion.div>
+        ></motion.div>
       </div>
     </section>
   );

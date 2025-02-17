@@ -10,7 +10,7 @@ import LocationSection from "@/components/location-section";
 import PlotConfigurations from "@/components/plot-configurations";
 import Pricing from "@/components/pricing";
 import ProjectOverview from "@/components/project-overview";
-import Testimonials from "@/components/testimonials";
+// import Testimonials from "@/components/testimonials";
 import WhyInvest from "@/components/why-invest";
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
       <ProjectOverview />
       <LocationInfo />
       <WhyInvest />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </main>

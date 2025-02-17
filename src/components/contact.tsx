@@ -64,7 +64,7 @@ export default function ContactForm() {
     });
   }, [rotation, controls]);
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
+  async function onSubmit() {
     setIsSubmitting(true);
     // Here you would typically send the form data to your backend
     await new Promise((resolve) => setTimeout(resolve, 1000));
