@@ -1,4 +1,5 @@
 "use client";
+
 import Contact from "@/components/contact";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -20,10 +21,10 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              We're here to answer any questions you may have about Maharaja
-              Ikon Park. Our dedicated team is committed to providing you with
-              exceptional service and guiding you through every step of your
-              journey towards luxury living. Reach out to us today and
+              We&apos;re here to answer any questions you may have about
+              Maharaja Ikon Park. Our dedicated team is committed to providing
+              you with exceptional service and guiding you through every step of
+              your journey towards luxury living. Reach out to us today and
               experience the Maharaja difference.
             </p>
           </motion.div>
