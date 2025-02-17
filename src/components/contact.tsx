@@ -64,13 +64,32 @@ export default function ContactForm() {
     });
   }, [rotation, controls]);
 
-  async function onSubmit() {
+  async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
-    // Here you would typically send the form data to your backend
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+
+    try {
+        const response = await fetch("https://maharajaiconpark.com/contact.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(values),
+        });
+
+        const data = await response.json();
+        if (data.success) {
+            alert("Message sent successfully!");
+            form.reset();
+        } else {
+            alert("Error: " + data.message);
+        }
+    } catch {
+        alert("Failed to send message.");
+    }
+
     setIsSubmitting(false);
-    form.reset();
-  }
+}
+
 
   return (
     <div className="grid md:grid-cols-2 gap-8 items-stretch">
