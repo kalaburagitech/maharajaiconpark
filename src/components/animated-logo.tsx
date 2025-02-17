@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
 const words = ["Maharaja", "Ikon", "Park"];
-const colors = ["#2F2890", "#10B981", "#F59E0B"]; // Indigo, Emerald, Amber
+const colors = ["#8B5CF6", "#22C55E", "#FACC15"]; // Purple-500, Green-500, Yellow-400
 
 const wordVariants = {
   initial: { y: 20, opacity: 0 },
