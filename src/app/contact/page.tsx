@@ -32,11 +32,14 @@ export default function ContactPage() {
           property="og:description"
           content="Reach out to us for information about our luxury villas in Devanahalli, Bangalore."
         />
-        <meta property="og:url" content="https://maharajaikonpark.in/contact" />
+        <meta
+          property="og:url"
+          content="https://maharajaiconpark.com/contact"
+        />
         <meta property="og:site_name" content="Maharaja Ikon Park" />
         <meta
           property="og:image"
-          content="https://maharajaikonpark.in/contact.png"
+          content="https://maharajaiconpark.com/contact.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -50,9 +53,9 @@ export default function ContactPage() {
         />
         <meta
           name="twitter:image"
-          content="https://maharajaikonpark.in/image2.jpeg"
+          content="https://maharajaiconpark.com/image2.jpeg"
         />
-        <link rel="canonical" href="https://maharajaikonpark.in/contact" />
+        <link rel="canonical" href="https://maharajaiconpark.com/contact" />
       </Head>
       <main className="min-h-screen bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-gray-800">
         <Header />

@@ -32,23 +32,23 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://maharajaikonpark.com" />
+        <link rel="canonical" href="https://maharajaiconpark.com/" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://maharajaikonpark.com/" />
+        <meta property="og:url" content="https://maharajaiconpark.com/" />
         <meta property="og:site_name" content="Maharaja Ikon Park" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://maharajaikonpark.com/" />
+        <meta name="twitter:url" content="https://maharajaiconpark.com/" />
 
         {/* Additional SEO meta tags */}
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Maharaja Ikon Park" />
         <meta
           name="google-site-verification"
-          content="your-google-verification-code"
+          content="HwSl7FmnuodkaGvo6AUHDsZNeo0hWq5OyEGXehNUiiY"
         />
       </Head>
       <body className={`${inter.className} w-full overflow-x-hidden`}>

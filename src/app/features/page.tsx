@@ -37,12 +37,12 @@ export default function FeaturesPage() {
         />
         <meta
           property="og:url"
-          content="https://maharajaikonpark.com/features"
+          content="https://maharajaiconpark.com/features"
         />
         <meta property="og:site_name" content="Maharaja Ikon Park" />
         <meta
           property="og:image"
-          content="https://maharajaikonpark.com/features.png"
+          content="https://maharajaiconpark.com/features.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -59,9 +59,9 @@ export default function FeaturesPage() {
         />
         <meta
           name="twitter:image"
-          content="https://maharajaikonpark.com/image4.jpeg"
+          content="https://maharajaiconpark.com/image4.jpeg"
         />
-        <link rel="canonical" href="https://maharajaikonpark.com/features" />
+        <link rel="canonical" href="https://maharajaiconpark.com/features" />
       </Head>
       <main className="min-h-screen bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-gray-800">
         <Header />
