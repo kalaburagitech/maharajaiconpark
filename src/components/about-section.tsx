@@ -18,13 +18,13 @@ export default function AboutSection() {
             className="md:w-1/2 mb-8 md:mb-0"
           >
             <h2 className="text-4xl font-bold mb-6 text-indigo-800 dark:text-indigo-300">
-              IKON PARK
+              ICON PARK
             </h2>
             <p className="text-xl mb-4 text-gray-700 dark:text-gray-300">
               ITíS WHERE YOU THRIVE, SURROUNDED BY LUXURY AND PEACE.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              Ikon Park is all about ICONIC DESIGN. It is an English
+              Icon Park is all about ICONIC DESIGN. It is an English
               Heritage-inspired development, excellently planned according to
               the requirements of a multigenerational home. It is a
               one-of-its-kind development where everyone can enjoy their

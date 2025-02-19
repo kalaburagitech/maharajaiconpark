@@ -12,7 +12,7 @@ const testimonials = [
     name: "John Doe",
     avatar: "/placeholder-user.jpg",
     content:
-      "Maharaja Ikon Park offers an unparalleled living experience. The amenities are top-notch, and the location is perfect for my family.",
+      "Maharaja Icon Park offers an unparalleled living experience. The amenities are top-notch, and the location is perfect for my family.",
   },
   {
     name: "Jane Smith",
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Mike Johnson",
     avatar: "/placeholder-user.jpg",
     content:
-      "The community atmosphere at Maharaja Ikon Park is fantastic. It's not just a home, it's a lifestyle.",
+      "The community atmosphere at Maharaja Icon Park is fantastic. It's not just a home, it's a lifestyle.",
   },
 ];
 

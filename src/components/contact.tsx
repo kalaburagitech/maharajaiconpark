@@ -270,7 +270,7 @@ export default function ContactForm() {
             >
               <MapPin className="text-white text-2xl" />
               <div>
-                <p className="font-semibold">Maharaja Ikon Park</p>
+                <p className="font-semibold">Maharaja Icon Park</p>
                 <p>Devanahalli, Bangalore North</p>
                 <p>Karnataka, India</p>
                 <p>Pin: 562110</p>
