@@ -16,27 +16,27 @@ import WhyInvest from "@/components/why-invest";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Maharaja Ikon Park | Luxury Villas in Devanahalli, Bangalore",
+  title: "Maharaja Icon Park | Luxury Villas in Devanahalli, Bangalore",
   description:
-    "Discover Maharaja Ikon Park, a premium residential project offering luxurious 4BHK triplex villas in Devanahalli, Bangalore. Experience world-class amenities and strategic location near Kempegowda International Airport.",
+    "Discover Maharaja Icon Park, a premium residential project offering luxurious 4BHK triplex villas in Devanahalli, Bangalore. Experience world-class amenities and strategic location near Kempegowda International Airport.",
   keywords:
-    "Maharaja Ikon Park, luxury villas, Devanahalli, Bangalore, 4BHK triplex, residential project, real estate investment, Kempegowda International Airport",
+    "Maharaja Icon Park, luxury villas, Devanahalli, Bangalore, 4BHK triplex, residential project, real estate investment, Kempegowda International Airport",
   openGraph: {
-    title: "Maharaja Ikon Park | Luxury Villas in Devanahalli, Bangalore",
+    title: "Maharaja Icon Park | Luxury Villas in Devanahalli, Bangalore",
     description:
       "Premium 4BHK triplex villas with world-class amenities near Kempegowda International Airport, Bangalore.",
     images: [
       {
-        url: "https://maharajaiconpark.com/image2.jpeg",
+        url: "https://maharajaiconpark.com/logo.png",
         width: 1200,
         height: 630,
-        alt: "Maharaja Ikon Park Villas",
+        alt: "Maharaja Icon Park Villas",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maharaja Ikon Park | Luxury Villas in Devanahalli, Bangalore",
+    title: "Maharaja Icon Park | Luxury Villas in Devanahalli, Bangalore",
     description:
       "Premium 4BHK triplex villas with world-class amenities near Kempegowda International Airport, Bangalore.",
     images: ["https://maharajaiconpark.com/image3.jpeg"],
@@ -51,7 +51,7 @@ export default function Home() {
           {
             "@context": "https://schema.org",
             "@type": "RealEstateAgent",
-            "name": "Maharaja Ikon Park",
+            "name": "Maharaja Icon Park",
             "image": "https://maharajaiconpark.com/image1.jpeg",
             "description": "Luxury 4BHK triplex villas in Devanahalli, Bangalore",
             "address": {

@@ -20,7 +20,7 @@ export default function GalleryPage() {
               Gallery
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Immerse yourself in the visual splendor of Maharaja Ikon Park. Our
+              Immerse yourself in the visual splendor of Maharaja Icon Park. Our
               gallery showcases the exquisite architecture, lush landscapes, and
               luxurious interiors that define our iconic development. Each image
               tells a story of elegance, comfort, and unparalleled living

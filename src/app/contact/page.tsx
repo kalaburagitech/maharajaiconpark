@@ -10,12 +10,12 @@ import Head from "next/head";
 export default function ContactPage() {
   useEffect(() => {
     // Update metadata dynamically
-    document.title = "Contact Us | Maharaja Ikon Park";
+    document.title = "Contact Us | Maharaja Icon Park";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Get in touch with Maharaja Ikon Park for inquiries about our luxury villas in Devanahalli, Bangalore. Our team is ready to assist you with your journey towards exceptional living."
+        "Get in touch with Maharaja Icon Park for inquiries about our luxury villas in Devanahalli, Bangalore. Our team is ready to assist you with your journey towards exceptional living."
       );
     }
   }, []);
@@ -25,9 +25,9 @@ export default function ContactPage() {
       <Head>
         <meta
           name="description"
-          content="Get in touch with Maharaja Ikon Park for inquiries about our luxury villas in Devanahalli, Bangalore. Our team is ready to assist you with your journey towards exceptional living."
+          content="Get in touch with Maharaja Icon Park for inquiries about our luxury villas in Devanahalli, Bangalore. Our team is ready to assist you with your journey towards exceptional living."
         />
-        <meta property="og:title" content="Contact Maharaja Ikon Park" />
+        <meta property="og:title" content="Contact Maharaja Icon Park" />
         <meta
           property="og:description"
           content="Reach out to us for information about our luxury villas in Devanahalli, Bangalore."
@@ -36,7 +36,7 @@ export default function ContactPage() {
           property="og:url"
           content="https://maharajaiconpark.com/contact"
         />
-        <meta property="og:site_name" content="Maharaja Ikon Park" />
+        <meta property="og:site_name" content="Maharaja Icon Park" />
         <meta
           property="og:image"
           content="https://maharajaiconpark.com/contact.png"
@@ -46,14 +46,14 @@ export default function ContactPage() {
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact Maharaja Ikon Park" />
+        <meta name="twitter:title" content="Contact Maharaja Icon Park" />
         <meta
           name="twitter:description"
           content="Reach out to us for information about our luxury villas in Devanahalli, Bangalore."
         />
         <meta
           name="twitter:image"
-          content="https://maharajaiconpark.com/image2.jpeg"
+          content="https://maharajaiconpark.com/logo.png"
         />
         <link rel="canonical" href="https://maharajaiconpark.com/contact" />
       </Head>
@@ -72,7 +72,7 @@ export default function ContactPage() {
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                 We&apos;re here to answer any questions you may have about
-                Maharaja Ikon Park. Our dedicated team is committed to providing
+                Maharaja Icon Park. Our dedicated team is committed to providing
                 you with exceptional service and guiding you through every step
                 of your journey towards luxury living. Reach out to us today and
                 experience the Maharaja difference.

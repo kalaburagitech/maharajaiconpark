@@ -3,9 +3,9 @@ import Footer from "@/components/footer";
 import Amenities from "@/components/amenities";
 
 export const metadata = {
-  title: "Amenities | Maharaja Ikon Park",
+  title: "Amenities | Maharaja Icon Park",
   description:
-    "Discover the world-class amenities at Maharaja Ikon Park - Where luxury meets convenience",
+    "Discover the world-class amenities at Maharaja Icon Park - Where luxury meets convenience",
 };
 
 export default function AmenitiesPage() {

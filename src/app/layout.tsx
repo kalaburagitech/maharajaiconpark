@@ -37,7 +37,7 @@ export default function RootLayout({
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://maharajaiconpark.com/" />
-        <meta property="og:site_name" content="Maharaja Ikon Park" />
+        <meta property="og:site_name" content="Maharaja Icon Park" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -45,7 +45,7 @@ export default function RootLayout({
 
         {/* Additional SEO meta tags */}
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Maharaja Ikon Park" />
+        <meta name="author" content="Maharaja Icon Park" />
         <meta
           name="google-site-verification"
           content="HwSl7FmnuodkaGvo6AUHDsZNeo0hWq5OyEGXehNUiiY"

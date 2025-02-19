@@ -10,12 +10,12 @@ import Head from "next/head";
 export default function FeaturesPage() {
   useEffect(() => {
     // Update metadata dynamically
-    document.title = "Iconic Features | Maharaja Ikon Park";
+    document.title = "Iconic Features | Maharaja Icon Park";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Explore the extraordinary features of Maharaja Ikon Park. From strategic location to luxurious amenities, discover what makes our development truly iconic."
+        "Explore the extraordinary features of Maharaja Icon Park. From strategic location to luxurious amenities, discover what makes our development truly iconic."
       );
     }
   }, []);
@@ -25,21 +25,21 @@ export default function FeaturesPage() {
       <Head>
         <meta
           name="description"
-          content="Explore the extraordinary features of Maharaja Ikon Park. From strategic location to luxurious amenities, discover what makes our development truly iconic."
+          content="Explore the extraordinary features of Maharaja Icon Park. From strategic location to luxurious amenities, discover what makes our development truly iconic."
         />
         <meta
           property="og:title"
-          content="Iconic Features | Maharaja Ikon Park"
+          content="Iconic Features | Maharaja Icon Park"
         />
         <meta
           property="og:description"
-          content="Discover the extraordinary features that make Maharaja Ikon Park a truly iconic living experience. Explore our strategic location, luxurious amenities, and commitment to excellence."
+          content="Discover the extraordinary features that make Maharaja Icon Park a truly iconic living experience. Explore our strategic location, luxurious amenities, and commitment to excellence."
         />
         <meta
           property="og:url"
           content="https://maharajaiconpark.com/features"
         />
-        <meta property="og:site_name" content="Maharaja Ikon Park" />
+        <meta property="og:site_name" content="Maharaja Icon Park" />
         <meta
           property="og:image"
           content="https://maharajaiconpark.com/features.png"
@@ -51,11 +51,11 @@ export default function FeaturesPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Iconic Features | Maharaja Ikon Park"
+          content="Iconic Features | Maharaja Icon Park"
         />
         <meta
           name="twitter:description"
-          content="Discover the extraordinary features that make Maharaja Ikon Park a truly iconic living experience. Explore our strategic location, luxurious amenities, and commitment to excellence."
+          content="Discover the extraordinary features that make Maharaja Icon Park a truly iconic living experience. Explore our strategic location, luxurious amenities, and commitment to excellence."
         />
         <meta
           name="twitter:image"
@@ -77,7 +77,7 @@ export default function FeaturesPage() {
                 Iconic Features
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                Discover the extraordinary features that make Maharaja Ikon Park
+                Discover the extraordinary features that make Maharaja Icon Park
                 a truly iconic living experience. Our commitment to excellence
                 is reflected in every aspect of this prestigious development,
                 from its strategic location to its luxurious amenities.
