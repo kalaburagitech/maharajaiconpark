@@ -16,13 +16,13 @@ import WhyInvest from "@/components/why-invest";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Maharaja Icon Park | Luxury Villas in Devanahalli, Bangalore",
+  title: "MaharajaIconPark | Luxury Villas in Devanahalli, Bangalore",
   description:
     "Discover Maharaja Icon Park, a premium residential project offering luxurious 4BHK triplex villas in Devanahalli, Bangalore. Experience world-class amenities and strategic location near Kempegowda International Airport.",
   keywords:
     "Maharaja Icon Park, luxury villas, Devanahalli, Bangalore, 4BHK triplex, residential project, real estate investment, Kempegowda International Airport",
   openGraph: {
-    title: "Maharaja Icon Park | Luxury Villas in Devanahalli, Bangalore",
+    title: "MaharajaIconPark | Luxury Villas in Devanahalli, Bangalore",
     description:
       "Premium 4BHK triplex villas with world-class amenities near Kempegowda International Airport, Bangalore.",
     images: [

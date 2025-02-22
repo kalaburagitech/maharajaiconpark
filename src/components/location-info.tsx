@@ -23,7 +23,7 @@ export default function LocationInfo() {
             className="md:w-1/2 mb-8 md:mb-0"
           >
             <Image
-              src="/location_map.jpg"
+              src="/images/location_map.jpg"
               alt="Devanahalli Map"
               width={600}
               height={400}

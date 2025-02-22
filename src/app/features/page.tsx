@@ -1,88 +1,91 @@
-"use client";
-
-import { useEffect } from "react";
-import { motion } from "framer-motion";
+import type { Metadata } from "next";
 import Features from "@/components/features";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import Head from "next/head";
+import Script from "next/script";
+import AnimatedHero from "@/components/animated-hero";
+
+export const metadata: Metadata = {
+  title: "Premium Villa Features in Bangalore | MaharajaIconPark",
+  description:
+    "Explore premium features of 4BHK triplex villas at Maharaja Icon Park. Modern design, luxury specifications, and world-class amenities in Devanahalli, Bangalore.",
+  keywords: [
+    "luxury villa features",
+    "premium villa specifications",
+    "4BHK triplex villas",
+    "Devanahalli luxury homes",
+    "Bangalore premium properties",
+  ],
+  alternates: {
+    canonical: "https://maharajaiconpark.com/features",
+  },
+  openGraph: {
+    title: "Premium Villa Features in Bangalore | MaharajaIconPark",
+    description:
+      "Explore premium features of 4BHK triplex villas at Maharaja Icon Park.",
+    url: "https://maharajaiconpark.com/features",
+    images: [
+      {
+        url: "https://maharajaiconpark.com/features.png",
+        width: 1200,
+        height: 630,
+        alt: "Premium Features at Maharaja Icon Park",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
 
 export default function FeaturesPage() {
-  useEffect(() => {
-    // Update metadata dynamically
-    document.title = "Iconic Features | Maharaja Icon Park";
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute(
-        "content",
-        "Explore the extraordinary features of Maharaja Icon Park. From strategic location to luxurious amenities, discover what makes our development truly iconic."
-      );
-    }
-  }, []);
-
   return (
     <>
-      <Head>
-        <meta
-          name="description"
-          content="Explore the extraordinary features of Maharaja Icon Park. From strategic location to luxurious amenities, discover what makes our development truly iconic."
-        />
-        <meta
-          property="og:title"
-          content="Iconic Features | Maharaja Icon Park"
-        />
-        <meta
-          property="og:description"
-          content="Discover the extraordinary features that make Maharaja Icon Park a truly iconic living experience. Explore our strategic location, luxurious amenities, and commitment to excellence."
-        />
-        <meta
-          property="og:url"
-          content="https://maharajaiconpark.com/features"
-        />
-        <meta property="og:site_name" content="Maharaja Icon Park" />
-        <meta
-          property="og:image"
-          content="https://maharajaiconpark.com/features.png"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Iconic Features | Maharaja Icon Park"
-        />
-        <meta
-          name="twitter:description"
-          content="Discover the extraordinary features that make Maharaja Icon Park a truly iconic living experience. Explore our strategic location, luxurious amenities, and commitment to excellence."
-        />
-        <meta
-          name="twitter:image"
-          content="https://maharajaiconpark.com/image4.jpeg"
-        />
-        <link rel="canonical" href="https://maharajaiconpark.com/features" />
-      </Head>
+      <Script id="features-schema" type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Maharaja Icon Park Luxury Villas",
+            "description": "Premium 4BHK triplex villas with world-class features",
+            "brand": {
+              "@type": "Brand",
+              "name": "Maharaja Icon Park"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "INR",
+              "priceRange": "₹2.5 Cr - ₹3.5 Cr",
+              "availability": "https://schema.org/InStock"
+            },
+            "image": "https://maharajaiconpark.com/features.png",
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "4"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Property Type",
+                "value": "Triplex Villa"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Location",
+                "value": "Devanahalli, Bangalore"
+              }
+            ]
+          }
+        `}
+      </Script>
       <main className="min-h-screen bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-gray-800">
         <Header />
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-center mb-16"
-            >
-              <h1 className="text-5xl font-bold mb-6 text-gray-900 dark:text-white font-serif">
-                Iconic Features
-              </h1>
-              <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                Discover the extraordinary features that make Maharaja Icon Park
-                a truly iconic living experience. Our commitment to excellence
-                is reflected in every aspect of this prestigious development,
-                from its strategic location to its luxurious amenities.
-              </p>
-            </motion.div>
+            <AnimatedHero
+              title="Iconic Features"
+              description="Discover the extraordinary features that make Maharaja Icon Park a truly iconic living experience. Our commitment to excellence is reflected in every aspect of this prestigious development, from its strategic location to its luxurious amenities."
+            />
             <Features />
           </div>
         </section>

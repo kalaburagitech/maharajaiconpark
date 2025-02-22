@@ -1,11 +1,33 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Enables static export
-  trailingSlash: true, // Ensures proper routing for static hosting
+  output: 'export',
   images: {
-    unoptimized: true, // Fixes images when using "next export"
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'maharajaiconpark.com',
+      },
+    ],
   },
-  reactStrictMode: true, // Optional but recommended
-};
+  trailingSlash: true,
+  async headers() {
+    return [
+      {
+        source: '/manifest.webmanifest',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'application/manifest+json',
+          },
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ]
+  },
+}
 
-module.exports = nextConfig;
+export default nextConfig
