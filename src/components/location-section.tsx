@@ -46,7 +46,7 @@ export default function LocationSection() {
               and luxury living
             </h3>
             <p className="mb-6 text-gray-700 dark:text-gray-300">
-              Located in the heart of Devanahalli, Maharaja Icon Park offers
+              Located in the heart of Devanahalli, Maharaja Ikon Park offers
               unparalleled connectivity and access to Bengaluru&apos;s most
               sought-after destinations.
             </p>

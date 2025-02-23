@@ -150,7 +150,7 @@ export default function Amenities() {
             A host of thoughtful amenities for unlimited happiness
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto font-sans">
-            One thing you&apos;ll always have at Maharaja Icon Park is ample
+            One thing you&apos;ll always have at Maharaja Ikon Park is ample
             amounts of time. And with our world-class amenities, you&apos;ll
             never have trouble figuring out how to spend your time. In other
             words, the amenities are one more way to help you make the right

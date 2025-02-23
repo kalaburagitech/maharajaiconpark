@@ -5,27 +5,27 @@ import Amenities from "@/components/amenities";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Luxury Villa Amenities in Bangalore | MaharajaIconPark",
+  title: "Luxury Villa Amenities in Bangalore | MaharajaIkonPark",
   description:
-    "Experience world-class amenities at Maharaja Icon Park including clubhouse, swimming pool, gym, and more. Premium facilities for luxury living in Devanahalli, Bangalore.",
+    "Experience world-class amenities at Maharaja Ikon Park including clubhouse, swimming pool, gym, and more. Premium facilities for luxury living in Devanahalli, Bangalore.",
   keywords: [
     "luxury villa amenities",
     "Bangalore luxury facilities",
     "premium villa features",
     "Devanahalli residential amenities",
-    "MaharajaIconPark facilities",
+    "MaharajaIkonPark facilities",
   ],
   openGraph: {
-    title: "Luxury Villa Amenities in Bangalore | MaharajaIconPark",
+    title: "Luxury Villa Amenities in Bangalore | MaharajaIkonPark",
     description:
-      "Experience world-class amenities at Maharaja Icon Park including clubhouse, swimming pool, gym, and more.",
+      "Experience world-class amenities at Maharaja Ikon Park including clubhouse, swimming pool, gym, and more.",
     url: "https://maharajaiconpark.com/amenities-page",
     images: [
       {
         url: "https://maharajaiconpark.com/Full_image.jpg",
         width: 1200,
         height: 630,
-        alt: "Luxury Amenities at Maharaja Icon Park",
+        alt: "Luxury Amenities at Maharaja Ikon Park",
       },
     ],
     locale: "en_US",
@@ -41,9 +41,9 @@ export default function AmenitiesPage() {
           {
             "@context": "https://schema.org",
             "@type": "ApartmentComplex",
-            "name": "Maharaja Icon Park",
+            "name": "Maharaja Ikon Park",
             "description": "Luxury villa project with world-class amenities in Devanahalli, Bangalore",
-            "url": "https://maharajaiconpark.com/amenities-page",
+            "url": "https://maharajaikonpark.com/amenities-page",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Devanahalli",

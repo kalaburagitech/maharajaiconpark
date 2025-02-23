@@ -6,11 +6,11 @@ import Script from "next/script";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Contact Maharaja Icon Park | Luxury Villas in Bangalore",
+  title: "Contact Maharaja Ikon Park | Luxury Villas in Bangalore",
   description:
-    "Connect with Maharaja Icon Park for premium villa bookings in Devanahalli, Bangalore. Expert assistance for your luxury home investment near Kempegowda International Airport.",
+    "Connect with Maharaja Ikon Park for premium villa bookings in Devanahalli, Bangalore. Expert assistance for your luxury home investment near Kempegowda International Airport.",
   keywords: [
-    "contact Maharaja Icon Park",
+    "contact Maharaja Ikon Park",
     "luxury villa booking",
     "Devanahalli property enquiry",
     "Bangalore real estate contact",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://maharajaiconpark.com/contact",
   },
   openGraph: {
-    title: "Contact Maharaja Icon Park | Luxury Villas in Bangalore",
+    title: "Contact Maharaja Ikon Park | Luxury Villas in Bangalore",
     description:
       "Connect with us for premium villa bookings in Devanahalli, Bangalore.",
     url: "https://maharajaiconpark.com/contact",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         url: "https://maharajaiconpark.com/contact.png",
         width: 1200,
         height: 630,
-        alt: "Contact Maharaja Icon Park",
+        alt: "Contact Maharaja Ikon Park",
       },
     ],
     locale: "en_US",
@@ -45,7 +45,7 @@ export default function ContactPage() {
           {
             "@context": "https://schema.org",
             "@type": "RealEstateAgent",
-            "name": "Maharaja Icon Park",
+            "name": "Maharaja Ikon Park",
             "image": "https://maharajaiconpark.com/logo.png",
             "description": "Luxury villa project in Devanahalli, Bangalore",
             "@id": "https://maharajaiconpark.com",
@@ -99,7 +99,7 @@ export default function ContactPage() {
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                   We&apos;re here to answer any questions you may have about
-                  Maharaja Icon Park. Our dedicated team is committed to
+                  Maharaja Ikon Park. Our dedicated team is committed to
                   providing you with exceptional service and guiding you through
                   every step of your journey towards luxury living. Reach out to
                   us today and experience the Maharaja difference.
@@ -144,10 +144,10 @@ export default function ContactPage() {
                       </h3>
                       <p className="text-gray-600 dark:text-gray-300">
                         <a
-                          href="mailto:info@maharajaiconpark.com"
+                          href="mailto:info@maharajaikonpark.com"
                           className="hover:text-primary"
                         >
-                          info@maharajaiconpark.com
+                          info@maharajaikonpark.com
                         </a>
                       </p>
                     </div>

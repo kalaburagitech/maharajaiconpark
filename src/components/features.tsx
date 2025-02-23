@@ -7,31 +7,31 @@ import { MapPin, Building, TrendingUp, Car, Leaf } from "lucide-react";
 const features = [
   {
     icon: <MapPin className="h-6 w-6" />,
-    title: "Iconic Address",
+    title: "Ikonic Address",
     description:
       "Perfectly positioned near major business hubs, renowned educational institutions, leading healthcare facilities, and vibrant shopping and entertainment centers.",
   },
   {
     icon: <Leaf className="h-6 w-6" />,
-    title: "Iconic Ambience",
+    title: "Ikonic Ambience",
     description:
       "Surrounded by nature's tranquility, relish expansive green spaces and serene landscapes, with the prestigious Brigade Orchards adding to the charm of this exceptional community.",
   },
   {
     icon: <Building className="h-6 w-6" />,
-    title: "Iconic Architecture",
+    title: "Ikonic Architecture",
     description:
       "Our English Heritage-inspired villas offer thoughtful multigenerational living, complete with private lifts, servant quarters, and spacious, Vaastu-compliant designs.",
   },
   {
     icon: <TrendingUp className="h-6 w-6" />,
-    title: "Iconic Appreciation",
+    title: "Ikonic Appreciation",
     description:
       "Strategically located near Kempegowda International Airport, this is not just a home, but a legacy—a future-proof investment poised for significant growth.",
   },
   {
     icon: <Car className="h-6 w-6" />,
-    title: "Iconic Connectivity",
+    title: "Ikonic Connectivity",
     description:
       "Seamlessly connected to Nandi Hills, Yelahanka, Hoskote, and other prime locations.",
   },

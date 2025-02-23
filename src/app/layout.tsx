@@ -9,14 +9,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://maharajaiconpark.com"),
   title: {
-    default: "MaharajaIconPark | Luxury Villas in Devanahalli, Bangalore",
-    template: "%s | MaharajaIconPark",
+    default: "MaharajaIkonPark | Luxury Villas in Devanahalli, Bangalore",
+    template: "%s | MaharajaIkonPark",
   },
   description:
     "Premium residential project offering luxurious 4BHK triplex villas in Devanahalli, Bangalore near Kempegowda International Airport.",
   manifest: "/manifest.webmanifest", // Add this line
   keywords: [
-    "Maharaja Icon Park",
+    "Maharaja Ikon Park",
     "luxury villas",
     "Devanahalli",
     "Bangalore",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     "residential project",
     "real estate investment",
   ],
-  authors: [{ name: "Maharaja Icon Park" }],
-  creator: "Maharaja Icon Park",
-  publisher: "Maharaja Icon Park",
+  authors: [{ name: "Maharaja Ikon Park" }],
+  creator: "Maharaja Ikon Park",
+  publisher: "Maharaja Ikon Park",
   formatDetection: {
     email: false,
     address: false,

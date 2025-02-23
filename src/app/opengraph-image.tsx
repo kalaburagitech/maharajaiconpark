@@ -4,7 +4,7 @@ export const runtime = "edge";
 export const dynamic = "force-static";
 export const revalidate = false;
 
-export const alt = "Maharaja Icon Park - Luxury Villas in Bangalore";
+export const alt = "Maharaja IKon Park - Luxury Villas in Bangalore";
 export const size = {
   width: 1200,
   height: 630,

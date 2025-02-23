@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Section 1: Address */}
           <div>
             <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
-              Maharaja Icon Park
+              Maharaja Ikon Park
             </h3>
             <p className="mb-2">Devanahalli, Bangalore North</p>
             <p className="mb-4 text-sm">
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Footer Bottom Section */}
         <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700 text-center">
           <p className="text-sm">
-            &copy; 2025 Maharaja Icon Park. All rights reserved.
+            &copy; 2025 Maharaja Ikon Park. All rights reserved.
           </p>
         </div>
       </div>

@@ -6,30 +6,30 @@ import Script from "next/script";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Luxury Villa Gallery in Bangalore | MaharajaIconPark",
+  title: "Luxury Villa Gallery in Bangalore | MaharajaIkonPark",
   description:
-    "View our gallery of luxury 4BHK triplex villas at Maharaja Icon Park. Explore premium interiors, modern architecture, and world-class amenities in Devanahalli, Bangalore.",
+    "View our gallery of luxury 4BHK triplex villas at Maharaja Ikon Park. Explore premium interiors, modern architecture, and world-class amenities in Devanahalli, Bangalore.",
   keywords: [
     "luxury villa gallery",
     "premium villa images",
     "Devanahalli property photos",
     "Bangalore luxury homes pictures",
-    "MaharajaIconPark gallery",
+    "MaharajaIkonPark gallery",
   ],
   alternates: {
     canonical: "https://maharajaiconpark.com/gallery",
   },
   openGraph: {
-    title: "Luxury Villa Gallery in Bangalore | MaharajaIconPark",
+    title: "Luxury Villa Gallery in Bangalore | MaharajaIkonPark",
     description:
-      "View our gallery of luxury 4BHK triplex villas at Maharaja Icon Park.",
+      "View our gallery of luxury 4BHK triplex villas at Maharaja Ikon Park.",
     url: "https://maharajaiconpark.com/gallery",
     images: [
       {
         url: "https://maharajaiconpark.com/Full_image.jpg",
         width: 1200,
         height: 630,
-        alt: "Luxury Villas at Maharaja Icon Park",
+        alt: "Luxury Villas at Maharaja Ikon Park",
       },
     ],
     locale: "en_US",
@@ -45,15 +45,15 @@ export default function GalleryPage() {
           {
             "@context": "https://schema.org",
             "@type": "ImageGallery",
-            "name": "Maharaja Icon Park Villa Gallery",
-            "description": "Gallery of luxury villas at Maharaja Icon Park, Devanahalli",
+            "name": "Maharaja Ikon Park Villa Gallery",
+            "description": "Gallery of luxury villas at Maharaja Ikon Park, Devanahalli",
             "url": "https://maharajaiconpark.com/gallery",
             "image": [
               {
                 "@type": "ImageObject",
                 "url": "https://maharajaiconpark.com/gallery/Full_image.jpg",
                 "name": "Villa Exterior View",
-                "description": "Luxurious exterior view of Maharaja Icon Park villas"
+                "description": "Luxurious exterior view of Maharaja Ikon Park villas"
               },
               {
                 "@type": "ImageObject",
@@ -64,7 +64,7 @@ export default function GalleryPage() {
             ],
             "about": {
               "@type": "RealEstateListing",
-              "name": "Maharaja Icon Park Luxury Villas",
+              "name": "Maharaja Ikon Park Luxury Villas",
               "description": "Premium 4BHK triplex villas in Devanahalli, Bangalore"
             }
           }
@@ -79,9 +79,9 @@ export default function GalleryPage() {
                 Gallery
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                Immerse yourself in the visual splendor of Maharaja Icon Park.
+                Immerse yourself in the visual splendor of Maharaja Ikon Park.
                 Our gallery showcases the exquisite architecture, lush
-                landscapes, and luxurious interiors that define our iconic
+                landscapes, and luxurious interiors that define our ikonic
                 development. Each image tells a story of elegance, comfort, and
                 unparalleled living experiences.
               </p>
@@ -104,7 +104,7 @@ export default function GalleryPage() {
               <div className="aspect-video relative rounded-lg overflow-hidden shadow-xl">
                 <Image
                   src="/images/Full_image.jpg"
-                  alt="Virtual Tour of Maharaja Icon Park"
+                  alt="Virtual Tour of Maharaja Ikon Park"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                   priority

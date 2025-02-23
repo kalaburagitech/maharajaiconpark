@@ -5,8 +5,8 @@ export const revalidate = false
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Maharaja Icon Park',
-    short_name: 'MaharajaIcon',
+    name: 'Maharaja Ikon Park',
+    short_name: 'MaharajaIkon',
     description: 'Luxury Villas in Devanahalli, Bangalore',
     start_url: '/',
     display: 'standalone',
