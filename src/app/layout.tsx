@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://maharajaiconpark.com"),
   title: {
-    default: "MaharajaIkonPark | Luxury Villas in Devanahalli, Bangalore",
+    default: "Maharaja Ikon Park | Luxury Villas in Devanahalli, Bangalore",
     template: "%s | MaharajaIkonPark",
   },
   description:

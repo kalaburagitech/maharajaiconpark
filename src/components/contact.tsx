@@ -68,28 +68,27 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     try {
-        const response = await fetch("https://maharajaiconpark.com/contact.php", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(values),
-        });
+      const response = await fetch("https://maharajaiconpark.com/contact.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
 
-        const data = await response.json();
-        if (data.success) {
-            alert("Message sent successfully!");
-            form.reset();
-        } else {
-            alert("Error: " + data.message);
-        }
+      const data = await response.json();
+      if (data.success) {
+        alert("Message sent successfully!");
+        form.reset();
+      } else {
+        alert("Error: " + data.message);
+      }
     } catch {
-        alert("Failed to send message.");
+      alert("Failed to send message.");
     }
 
     setIsSubmitting(false);
-}
-
+  }
 
   return (
     <div className="grid md:grid-cols-2 gap-8 items-stretch">
@@ -106,7 +105,7 @@ export default function ContactForm() {
           transition={{ duration: 0 }}
         />
         <motion.div
-          className="relative bg-white p-8 rounded-lg h-full overflow-auto"
+          className="relative bg-white dark:bg-gray-800 p-8 rounded-lg h-full overflow-auto"
           whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
@@ -126,9 +125,9 @@ export default function ContactForm() {
                         <Input
                           placeholder="Email *"
                           {...field}
-                          className="pl-10 border-gray-300 focus:ring-2 focus:ring-yellow-500 transition-all duration-300"
+                          className="pl-10 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-yellow-500 dark:focus:ring-yellow-400 transition-all duration-300"
                         />
-                        <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                        <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500" />
                       </motion.div>
                     </FormControl>
                     <FormMessage />
@@ -149,9 +148,9 @@ export default function ContactForm() {
                         <Input
                           placeholder="Name *"
                           {...field}
-                          className="pl-10 border-gray-300 focus:ring-2 focus:ring-yellow-500 transition-all duration-300"
+                          className="pl-10 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-yellow-500 dark:focus:ring-yellow-400 transition-all duration-300"
                         />
-                        <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                        <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500" />
                       </motion.div>
                     </FormControl>
                     <FormMessage />
@@ -172,9 +171,9 @@ export default function ContactForm() {
                         <Input
                           placeholder="Subject"
                           {...field}
-                          className="pl-10 border-gray-300 focus:ring-2 focus:ring-yellow-500 transition-all duration-300"
+                          className="pl-10 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-yellow-500 dark:focus:ring-yellow-400 transition-all duration-300"
                         />
-                        <MessageSquare className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                        <MessageSquare className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500" />
                       </motion.div>
                     </FormControl>
                     <FormMessage />
@@ -191,7 +190,7 @@ export default function ContactForm() {
                         <Textarea
                           placeholder="Message"
                           {...field}
-                          className="min-h-[120px] border-gray-300 focus:ring-2 focus:ring-yellow-500 transition-all duration-300"
+                          className="min-h-[120px] border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-yellow-500 dark:focus:ring-yellow-400 transition-all duration-300"
                         />
                       </motion.div>
                     </FormControl>
@@ -206,7 +205,7 @@ export default function ContactForm() {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-yellow-500 hover:bg-yellow-600 text-white w-full"
+                  className="bg-yellow-500 hover:bg-yellow-600 dark:bg-yellow-600 dark:hover:bg-yellow-700 text-white w-full"
                 >
                   {isSubmitting ? (
                     "Sending..."
@@ -227,11 +226,11 @@ export default function ContactForm() {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="relative bg-yellow-500 rounded-lg overflow-hidden shadow-lg"
+        className="relative bg-yellow-500 dark:bg-yellow-600 rounded-lg overflow-hidden shadow-lg"
         style={{ height: "450px" }} // Reduced height
       >
         <motion.div
-          className="absolute inset-0 bg-yellow-400"
+          className="absolute inset-0 bg-yellow-400 dark:bg-yellow-500"
           animate={{
             borderRadius: [
               "60% 40% 30% 70% / 60% 30% 70% 40%",

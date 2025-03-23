@@ -2,9 +2,27 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { MapPin } from "lucide-react";
+import { MapPin, ExternalLink } from "lucide-react";
 
 export default function LocationSection() {
+  const handleGetDirections = () => {
+    window.open(
+      "https://maps.app.goo.gl/BpxLsZ5pFB4chv3T9",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
+  const buttonVariants = {
+    hover: {
+      scale: 1.05,
+      boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.1)",
+    },
+    tap: {
+      scale: 0.95,
+    },
+  };
+
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
@@ -50,9 +68,35 @@ export default function LocationSection() {
               unparalleled connectivity and access to Bengaluru&apos;s most
               sought-after destinations.
             </p>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-              <MapPin className="mr-2 h-4 w-4" /> Get Directions
-            </Button>
+            <motion.div
+              whileHover="hover"
+              whileTap="tap"
+              variants={buttonVariants}
+            >
+              <Button
+                onClick={handleGetDirections}
+                className="bg-blue-600 hover:bg-blue-700 text-white relative group overflow-hidden"
+              >
+                <span className="flex items-center">
+                  <MapPin className="mr-2 h-4 w-4" />
+                  Get Directions
+                  <motion.span
+                    className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity"
+                    initial={{ x: -5, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: 0.1 }}
+                  >
+                    <ExternalLink className="h-3 w-3" />
+                  </motion.span>
+                </span>
+                <motion.span
+                  className="absolute bottom-0 left-0 h-0.5 bg-white"
+                  initial={{ width: 0 }}
+                  whileHover={{ width: "100%" }}
+                  transition={{ duration: 0.3 }}
+                />
+              </Button>
+            </motion.div>
           </motion.div>
         </div>
       </div>
